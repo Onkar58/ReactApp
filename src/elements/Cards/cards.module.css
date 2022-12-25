@@ -1,0 +1,29 @@
+/* body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.container{
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid #000; */
+    display: flex;
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 1px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    background: linear-gradient(#DD83AD, #C3E1FC);
+}
+h1{
+    font-size: 35px;
+}
+h1, h2{
+    margin-left: 20px;
+}
